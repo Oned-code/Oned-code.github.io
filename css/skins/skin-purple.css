@@ -1,0 +1,56 @@
+/*
+----------------------------------------------------------------------------------------------
+* Template Name    : Collar - One Page Parallax                                              * 
+* Author           : BullTheme                                                               *
+* Version          : 1.0.0                                                                   *
+* Created          : June 2018                                                               *
+* File Description : Default CSS file of the template                                        * 
+----------------------------------------------------------------------------------------------
+*/
+
+
+.bg-overlay {
+    background-color: #000;
+}
+
+.btn-custom {color: #fff; background-color: #4e4ada; border-color: #4e4ada;}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {color: #fff; background-color: #1f64d6; border-color: #1f64d6;}
+
+.text-custom,
+.navbar-custom .navbar-nav .show > .nav-link,
+.navbar-custom .navbar-nav .active > .nav-link,
+.navbar-custom .navbar-nav .nav-link.show,
+.navbar-custom .navbar-nav .nav-link.active,
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus,
+.header-social-inner li a:hover,
+.portfolio-filter li.active,
+.portfolio-filter li:hover,
+.blog-box .blog-content h5 a:hover,
+.blog-box .blog-social-share > li > a:hover {color: #4e4ada;fill:#4e4ada;}
+
+.bg-custom,
+.navbar-custom .navbar-nav .active > .nav-link:before,
+.navbar-custom .navbar-nav .active > .nav-link:after,
+.navbar-custom .navbar-nav .nav-link:hover:before,
+.navbar-custom .navbar-nav .nav-link:hover:after,
+.header-follow-close:hover,
+.quote-icon:before,
+.team-box .team-overlay:before {background-color: #4e4ada;}
+
+.price-box.active,
+.form-control:focus,
+.portfolio-filter li.active,
+.portfolio-filter li:hover {border-color: #4e4ada;}
+
+::selection {color: #fff; text-shadow: none; background: #4e4ada;}
+::-moz-selection {color: #fff; text-shadow: none; background: #4e4ada;}
+::-webkit-selection {color: #fff; text-shadow: none; background: #4e4ada;}
