@@ -13,7 +13,7 @@
     background-color: #000;
 }
 
-.btn-custom {color: #fff; background-color: #87CEEB; border-color: #87CEEB;}
+.btn-custom {color: #fff; background-color: #003974; border-color: #003974;}
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom:active,
@@ -35,7 +35,7 @@
 .portfolio-filter li.active,
 .portfolio-filter li:hover,
 .blog-box .blog-content h5 a:hover,
-.blog-box .blog-social-share > li > a:hover {color: #87CEEB;fill:#87CEEB;}
+.blog-box .blog-social-share > li > a:hover {color: #003974;fill:#003974;}
 
 .bg-custom,
 .navbar-custom .navbar-nav .active > .nav-link:before,
@@ -44,13 +44,13 @@
 .navbar-custom .navbar-nav .nav-link:hover:after,
 .header-follow-close:hover,
 .quote-icon:before,
-.team-box .team-overlay:before {background-color: #87CEEB;}
+.team-box .team-overlay:before {background-color: #003974;}
 
 .price-box.active,
 .form-control:focus,
 .portfolio-filter li.active,
-.portfolio-filter li:hover {border-color: #87CEEB;}
+.portfolio-filter li:hover {border-color: #003974;}
 
-::selection {color: #fff; text-shadow: none; background: #87CEEB;}
-::-moz-selection {color: #fff; text-shadow: none; background: #87CEEB;}
-::-webkit-selection {color: #fff; text-shadow: none; background: #87CEEB;}
+::selection {color: #fff; text-shadow: none; background: #003974;}
+::-moz-selection {color: #fff; text-shadow: none; background: #00AEEF;}
+::-webkit-selection {color: #fff; text-shadow: none; background: #003974;}
