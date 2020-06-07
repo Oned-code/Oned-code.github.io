@@ -10,30 +10,30 @@
 
 
 .bg-overlay {
-    background-image: -moz-linear-gradient(to left, #00AEEF 0%, #003974 100%);
-    background-image: -webkit-linear-gradient(to left, #00AEEF 0%, #003974 100%);
-    background-image: -ms-linear-gradient(to left, #00AEEF 0%, #003974 100%);
-    background-image: linear-gradient(to left, #00AEEF 0%, #003974 100%);
-    background-color: #00AEEF;
+    background-image: -moz-linear-gradient(to left, #003974 0%, #00AEEF 100%);
+    background-image: -webkit-linear-gradient(to left, #003974 0%, #00AEEF 100%);
+    background-image: -ms-linear-gradient(to left, #003974 0%, #00AEEF 100%);
+    background-image: linear-gradient(to left, #003974 0%, #00AEEF 100%);
+    background-color: #003974;
 }
 
 .bg-custom {
-    background-image: -moz-linear-gradient(to left, #00AEEF 0%, #003974 100%);
-    background-image: -webkit-linear-gradient(to left, #00AEEF 0%, #003974 100%);
-    background-image: -ms-linear-gradient(to left, #00AEEF 0%, #003974 100%);
-    background-image: linear-gradient(to left, #00AEEF 0%, #003974 100%);
+    background-image: -moz-linear-gradient(to left, #003974 0%, #00AEEF 100%);
+    background-image: -webkit-linear-gradient(to left, #003974 0%, #00AEEF 100%);
+    background-image: -ms-linear-gradient(to left, #003974 0%, #00AEEF 100%);
+    background-image: linear-gradient(to left, #003974 0%, #00AEEF 100%);
 }
 
 .text-custom {
-    background-image: -moz-linear-gradient(to left, #00AEEF 0%, #003974 100%);
-    background-image: -webkit-linear-gradient(to left, #00AEEF 0%, #003974 100%);
-    background-image: -ms-linear-gradient(to left, #00AEEF 0%, #003974 100%);
-    background-image: linear-gradient(to left, #00AEEF 0%, #003974 100%);
+    background-image: -moz-linear-gradient(to left, #003974 0%, #00AEEF 100%);
+    background-image: -webkit-linear-gradient(to left, #003974 0%, #00AEEF 100%);
+    background-image: -ms-linear-gradient(to left, #003974 0%, #00AEEF 100%);
+    background-image: linear-gradient(to left, #003974 0%, #00AEEF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.btn-custom {color: #fff; background-color: #00AEEF; border-color: #00AEEF;}
+.btn-custom {color: #fff; background-color: #003974; border-color: #003974;}
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom:active,

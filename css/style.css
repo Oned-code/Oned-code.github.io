@@ -356,3 +356,13 @@ textarea.form-control {height: auto;}
     .mobile-menu button {width: 45px;}
 
 }
+
+
+/*
+  Custom CSS Starts here
+*/
+
+.bg-overlay img {
+    width: 100%;
+    opacity: 0.7;
+}
