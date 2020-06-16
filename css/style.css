@@ -366,3 +366,8 @@ textarea.form-control {height: auto;}
     width: 100%;
     opacity: 0.7;
 }
+
+.owl-carousel {
+    z-index: 0 !important;
+}
+
