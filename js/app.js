@@ -183,6 +183,73 @@
             }
         });
 
+
+
+        const owl1=  $('#home-slider-bg');
+        const owl2=  $('#home-slider');
+
+        owl2.owlCarousel({
+            loop : true,
+            dots : true,
+            nav : false,
+            autoplay : true,
+            autoplayHoverPause : true,
+            autoHeight : false,
+            responsiveClass :true,
+            responsive : {
+                0 : {
+                    items: 1
+                },
+                540 : {
+                    items: 1,
+                },
+                720 : {
+                    items: 1,
+                },
+                992 : {
+                    items: 1,
+                },
+                1140 : {
+                    items: 1,
+                },
+            }
+        });
+
+        owl2.on('change.owl.carousel', function(event) {
+            if (event.namespace && event.property.name === 'position') {
+                console.log(event);
+                var target = event.relatedTarget.relative(event.property.value, true);
+                owl1.owlCarousel('to', target, 300, true);
+            }
+        });
+
+        owl1.owlCarousel({
+            loop : true,
+            dots : false,
+            nav : false,
+            autoplay : false,
+            autoplayHoverPause : true,
+            autoHeight : false,
+            responsiveClass :true,
+            responsive : {
+                0 : {
+                    items: 1
+                },
+                540 : {
+                    items: 1,
+                },
+                720 : {
+                    items: 1,
+                },
+                992 : {
+                    items: 1,
+                },
+                1140 : {
+                    items: 1,
+                },
+            }
+        });
+
         /* =============================================
             12.0 - Testimonial Slider
         ============================================= */
@@ -211,7 +278,7 @@
                     items: 2,
                 },
             }
-        });
+        }, );
 
         /* =============================================
             13.0 - Team Slider
