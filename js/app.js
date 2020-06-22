@@ -162,7 +162,7 @@
             nav : false,
             autoplay : true,
             autoplayHoverPause : true,
-            autoHeight : true,
+            autoHeight : false,
             responsiveCla1ss :true,
             responsive : {
                 0 : {
@@ -178,7 +178,7 @@
                     items: 4,
                 },
                 1140 : {
-                    items: 5,
+                    items: 4,
                 },
             }
         });
