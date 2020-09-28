@@ -371,3 +371,16 @@ textarea.form-control {height: auto;}
     z-index: 0 !important;
 }
 
+#home-slider .owl-stage {
+    background: rgba(0, 0, 0, 0.2);
+    height: fit-content;
+}
+
+.owl-item > .row > [class^="col-"]:first-child {
+    padding: 20px 20px 20px 40px;
+}
+
+#home-slider {
+    left: 0;
+    position: absolute;
+}
