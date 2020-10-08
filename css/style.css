@@ -372,7 +372,7 @@ textarea.form-control {height: auto;}
 }
 
 #home-slider .owl-stage {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
     height: fit-content;
 }
 
@@ -383,4 +383,12 @@ textarea.form-control {height: auto;}
 #home-slider {
     left: 0;
     position: absolute;
+}
+
+.viewer-common-metadata-appear-active {
+    display: none !important;
+}
+
+img.img-fluid {
+    max-width: 322px;
 }

@@ -513,6 +513,17 @@
 
     });
 
+    $("#iroDemo").on("load", function() {
+        console.log('loaded Iframe')
+        let head = $("#iroDemo").contents().find("head");
+        let css = '<style>' +
+            '.viewer-common-metadata-row{' +
+                'display: none !important;' +
+            '}' +
+            '</style>';
+        $(head).append(css);
+    });
+
 
 }(jQuery));
 
